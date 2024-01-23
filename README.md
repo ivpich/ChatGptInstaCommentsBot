@@ -3,7 +3,7 @@
 Бот использует:
 - OpenAI API для интеграции ChatGPT
 - Facebook Graph API для взаимодействия с Instagram (для использования необходимо зарегестрировать приложение в meta for developers)
-- Модель классификации комментариев, которая позволяет отличить комментарии на которые нужно ответить, а какие можно пропустить. Основа - переобученный bert-base-multilingual-cased на задачу классификации (BertForSequenceClassification) на размеченном вручную датасете комментариев инстаграм
+- Модель классификации комментариев, которая позволяет отличить комментарии на которые нужно ответить, а какие можно пропустить. Основа - fine-tuned bert-base-multilingual-cased на задачу классификации (BertForSequenceClassification) на размеченном вручную датасете комментариев инстаграм
 - Yandex Cloud (Compute Cloud, Container Registry, Managed PostgreSQL server, Datalens) для облачного хостинга, облачной БД и real-time мониторинга работы бота.
 
 ![telegram-cloud-photo-size-2-5294357992407420427-y](https://github.com/ivpich/ChatGptInstaCommentsBot/assets/127900049/c6b28196-82ab-4d48-ac06-da7d788ccbcd)
